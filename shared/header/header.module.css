@@ -1,0 +1,25 @@
+@reference "../../app/globals.css";
+.header {
+  @apply pt-[60px] pb-[70px] max-md:pt-[30px] pb-[35px];
+}
+
+.header__container {
+  @apply flex items-center justify-between max-lg:flex-col max-md:flex-row;
+}
+
+.header__navMenu {
+  @apply flex gap-10 items-center max-md:hidden;
+}
+.header__navMenu > li {
+  @apply cursor-pointer;
+}
+.header__burger {
+  @apply w-10 flex-col gap-2 hidden max-md:flex cursor-pointer py-5;
+}
+
+.header__burger__item {
+  @apply w-full h-1 rounded-full bg-black ;
+}
+.header__sheet__menu {
+  @apply flex flex-col font-bold text-2xl gap-2.5;
+}

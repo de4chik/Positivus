@@ -1,0 +1,16 @@
+@reference "../../app/globals.css";
+.container {
+  @apply pt-[140px];
+}
+
+
+.services {
+  @apply grid grid-cols-2 gap-[40px] pt-20 max-lg:grid-cols-1;
+}
+
+.happen {
+  @apply p-[60px] bg-[#F3F3F3] relative mt-[123px] rounded-[45px] max-md:p-[30px];
+}
+.happen_left {
+  @apply flex flex-col gap-[26px] max-w-[500px] w-full;
+}

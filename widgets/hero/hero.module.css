@@ -1,0 +1,20 @@
+@reference "../../app/globals.css";
+.title {
+  @apply text-6xl  max-w-[513px];
+}
+.description {
+  @apply text-xl space-y-7  max-w-[498px];
+}
+
+.hero__container {
+  @apply grid grid-cols-2 max-lg:grid-cols-1;
+}
+.hero__content {
+  @apply flex flex-col gap-[35px] max-lg:mx-auto;
+}
+.hero__content > button {
+  @apply size-fit max-lg:w-full;
+}
+.image {
+  @apply max-lg:row-start-1 mx-auto;
+}
