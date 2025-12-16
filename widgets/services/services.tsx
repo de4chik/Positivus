@@ -23,27 +23,27 @@ export const Services = () => {
           />
           <ServiceCard
             color="green"
-            image="/images/img_1.png"
+            image="/images/img_2.png"
             title="Search engine optimization"
           />
           <ServiceCard
             color="black"
-            image="/images/img_1.png"
+            image="/images/img_3.png"
             title="Search engine optimization"
           />
           <ServiceCard
             color="gray"
-            image="/images/img_1.png"
+            image="/images/img_4.png"
             title="Search engine optimization"
           />
           <ServiceCard
             color="green"
-            image="/images/img_1.png"
+            image="/images/img_5.png"
             title="Search engine optimization"
           />
           <ServiceCard
             color="black"
-            image="/images/img_1.png"
+            image="/images/img_6.png"
             title="Search engine optimization"
           />
         </div>

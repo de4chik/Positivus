@@ -35,7 +35,10 @@ export const ServiceCard = ({ color, image, title }: IPropsServiceCard) => {
         </span>
         <div
           className="p-3.5 rounded-full bg-black w-fit relative after:content-['Learn_more'] after:absolute after:top-1/2 after:-right-[200%] after:-translate-y-1/2"
-          style={{ background: color == "black" ? "white" : "" }}
+          style={{
+            background: color == "black" ? "white" : "",
+            color: color == "black" ? "white" : "",
+          }}
         >
           <ArrowUpRight
             className="stroke-white"
